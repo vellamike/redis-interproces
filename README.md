@@ -2,7 +2,7 @@ A simple demonstration of how to use Redis lists for interprocess communication.
 
 # Installation
 
-1. Get and compile redis
+ 1. Get and compile redis
 
 ```
 wget http://download.redis.io/redis-stable.tar.gz
@@ -11,22 +11,21 @@ cd redis-stable
 make
 ```
 
-2. (Optional) run tests
+ 2. (Optional) run tests
 
 ```
 make test
 ```
 
-3. (Optional) install - binaries are in `src` if you don't want to do this
+ 3. (Optional) install - binaries are in `src` if you don't want to do this
 
 ```
 make install
 ```
 
 
-4. Install python's Redis bindings
+ 4. Install python's Redis bindings
 
 ```
 sudo pip install redis
 ```
-	
